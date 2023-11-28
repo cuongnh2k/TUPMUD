@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    <TextView
+            android:id="@+id/txt_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:text="C++"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+    <TextView
+            android:id="@+id/time_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:text="t"
+            android:layout_alignTop="@id/txt_c"/>
+    <TextView
+            android:id="@+id/txt_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:text="Java"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+    <TextView
+            android:id="@+id/time_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:text="t"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/txt_java"/>
+    <TextView
+            android:id="@+id/c_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:text="C/Java"
+            android:layout_marginTop="30dp"
+            android:layout_centerInParent="true"
+    />
+    <LinearLayout
+            android:id="@+id/group_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+    >
+        <Button
+                android:text="Sàng số nguyên tố"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_sang_so_nguyen_to"/>
+        <Button
+                android:text="Đệ quy fibonaci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_de_quy_fibonaci"/>
+        <Button
+                android:text="Sắp xếp nổi bọt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_sap_xep_noi_bot"/>
+    </LinearLayout>
+
+</RelativeLayout>
