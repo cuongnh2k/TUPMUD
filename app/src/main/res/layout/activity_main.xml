@@ -68,11 +68,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_de_quy_fibonaci"/>
+
         <Button
-                android:text="Sắp xếp nổi bọt"
+                android:text="Đo pin - có truy suất bộ nhớ"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn_sap_xep_noi_bot"/>
+                android:id="@+id/btn_do_pin_co_truy_suat_bo_nho"/>
+        <Button
+                android:text="Đo pin - không truy suất bộ nhớ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_do_pin_khong_truy_suat_bo_nho"/>
     </LinearLayout>
 
 </RelativeLayout>
