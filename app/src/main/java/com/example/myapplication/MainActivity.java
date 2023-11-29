@@ -60,11 +60,6 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         binding.btnDoPinCoTruySuatBoNho.setOnClickListener(view -> {
-            binding.txtC.setText("");
-            binding.txtJava.setText("");
-            binding.timeC.setText("");
-            binding.timeJava.setText("");
-            binding.cJava.setText("");
 
             long totalTime = 0;
             while (totalTime < (60 * 60)) {
@@ -86,14 +81,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnDoPinKhongTruySuatBoNho.setOnClickListener(view -> {
-            binding.txtC.setText("");
-            binding.txtJava.setText("");
-            binding.timeC.setText("");
-            binding.timeJava.setText("");
-            binding.cJava.setText("");
 
             long totalTime = 0;
-            while (totalTime < (60 * 60)) {
+            while (totalTime < (1)) {
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException ignored) {
